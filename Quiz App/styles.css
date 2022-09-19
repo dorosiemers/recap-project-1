@@ -1,50 +1,56 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-header{
-    border: solid 1px;
+header {
+  border: solid 1px;
 }
-    h1{
-        text-align: center;
-        text-shadow: 100px; 
-    }
-
-main{
-    text-align: center;
-    border: solid 1px;
-}
-    .AnzeigeFrage{
-        border: solid 1px;
-        margin: 5%; 
-    }
-
-    .Bookmark{
-        display: flex;
-        justify-content: flex-end;   
-        align-items: flex-end; 
-    }
-
-    .tags{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .tags p{
-        border:solid 1px;
-        margin-left: 5px;
-        background-color: rgb(197, 196, 196);
-    }
-
-footer{
-    position: sticky;
-    text-align: center;
-    border: solid 1px;
+h1 {
+  text-align: center;
+  text-shadow: 100px;
 }
 
-    .bottomnav a{
-        color: black;
-        display: flex;
-        justify-content: center;
-    }
+main {
+  text-align: center;
+  border: solid 1px;
+}
+.AnzeigeFrage {
+  border: solid 1px;
+  margin: 5%;
+}
+
+.Bookmark {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.tags p {
+  border: solid 1px;
+  margin-left: 5px;
+  background-color: rgb(197, 196, 196);
+}
+
+footer {
+  position: sticky;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottomnav a {
+  color: black;
+}
